@@ -1,0 +1,26 @@
+Script started on Wed 23 Mar 2016 14:27:14 AEDT
+]0;michael@px4Dev: ~michael@px4Dev:~$ git init[K[K[K[K[K[K[K[Kkdir [K[K[K[K[Kmkdir nerw[K[Kew[K[Kw git [K[K[K[K[KGi[K[K[K[K[KtestGit
+]0;michael@px4Dev: ~michael@px4Dev:~$ cd testGit/
+]0;michael@px4Dev: ~/testGitmichael@px4Dev:~/testGit$ ][Kgit init [K
+Initialized empty Git repository in /home/michael/testGit/.git/
+]0;michael@px4Dev: ~/testGitmichael@px4Dev:~/testGit$ echo > [K[K"Hello W[KGit" > welcome.txt
+]0;michael@px4Dev: ~/testGitmichael@px4Dev:~/testGit$ cat welcome.txt 
+Hello Git
+]0;michael@px4Dev: ~/testGitmichael@px4Dev:~/testGit$ git add .
+]0;michael@px4Dev: ~/testGitmichael@px4Dev:~/testGit$ git commit -m[Ka -m "Initial Commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'michael@px4Dev.(none)')
+]0;michael@px4Dev: ~/testGitmichael@px4Dev:~/testGit$ exit
+exit
+
+Script done on Wed 23 Mar 2016 14:32:38 AEDT

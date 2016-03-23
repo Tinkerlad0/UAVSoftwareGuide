@@ -1,0 +1,2 @@
+michael@px4Dev: ~michael@px4Dev:~$ git config --global user.name USERNAME
+michael@px4Dev: ~michael@px4Dev:~$ git config --global user.email example@email.com
