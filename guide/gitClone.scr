@@ -1,0 +1,14 @@
+michael@px4Dev: ~michael@px4Dev:~$ mkdir uavDev
+michael@px4Dev: ~michael@px4Dev:~$ cd uavDev/
+michael@px4Dev:~/uavDev$ git clone https://github.com/Tinkerlad0/UAVSoftwareGuide.git
+Cloning into 'UAVSoftwareGuide'...
+remote: Counting objects: 13, done.
+remote: Compressing objects:   9% (1/11)remote: Compressing objects:  18% (2/11)remote: Compressing objects:  27% (3/11)remote: Compressing objects:  36% (4/11)remote: Compressing objects:  45% (5/11)remote: Compressing objects:  54% (6/11)remote: Compressing objects:  63% (7/11)remote: Compressing objects:  72% (8/11)remote: Compressing objects:  81% (9/11)remote: Compressing objects:  90% (10/11)remote: Compressing objects: 100% (11/11)remote: Compressing objects: 100% (11/11), done.
+Unpacking objects:   7% (1/13)   Unpacking objects:  15% (2/13)   Unpacking objects:  23% (3/13)   Unpacking objects:  30% (4/13)   Unpacking objects:  38% (5/13)   Unpacking objects:  46% (6/13)   Unpacking objects:  53% (7/13)   Unpacking objects:  61% (8/13)   Unpacking objects:  69% (9/13)   Unpacking objects:  76% (10/13)   Unpacking objects:  84% (11/13)   Unpacking objects:  92% (12/13)   remote: Total 13 (delta 0), reused 13 (delta 0), pack-reused 0
+Unpacking objects: 100% (13/13)   Unpacking objects: 100% (13/13), done.
+Checking connectivity... done.
+michael@px4Dev:~/uavDev$ cd UAVSoftwareGuide/
+michael@px4Dev:~/uavDev/UAVSoftwareGuide$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean

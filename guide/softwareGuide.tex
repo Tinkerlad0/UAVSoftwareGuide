@@ -333,7 +333,7 @@
 							The reason for this is twofold, first is that the command line is the only place you can have full control over git, secondly if you know how to utilise the command line it should be easy to understand a GUI implementation where the same cannot always be said in reverse.\\
 
 							For this initial introduction lets set up a new local repository and go through some of the actions you may want/need to perform involving git.
-							Lets have a look at an example of me doing this, then I can analyze the commands issued afterwards.
+							Lets have a look at an example of me doing this, then I can analyze the commands issued afterwards. I will not go into huge detail about their functionality and syntax as I expect you to use the 'man' pages to find this out yourself. (If you have difficulties feel free to ask me though).
 
 							\lstinputlisting[language=bash]{gitBasic.scr}
 
@@ -352,7 +352,19 @@
 							This final call to "git status" shows us that we have made no changes since the last commit and there are no untracked files.\\\\\\
 
 							So that was creating and working in your own local git repository, however most times you will be working on a multi user project that has an existing repo.
-							For this example I will be pulling from my own repository on GitHub that contains all the materials for the this guide, including the guide itself.
+							For this example I will be pulling from my own repository on GitHub that contains all the materials for the this guide (if you were redirected here from the Linux Setup section then you should do the same), including the guide itself (in LaTEX form, we will get to this later).\\
+
+							Once again I will show you the terminal output of me doing this then explain what each of the new commands does and how it works. Commands you have already seen won't be discussed\\
+
+							\lstinputlisting[language=bash]{gitClone.scr}
+
+							The first new command is "git clone <url>" this will query the url and check if it is a git repo. If it is it will make a copy of it in the current directory (including all of the relevant git files).
+							It will also set up the local copy of the repository to have the original source repo as the 'origin'. this means that after committing changes you can 'push' them up to the original repo where others can then download from.
+							Also note that it checks out the default branch for the repo (this is usually master), however don't worry about this too much for now as we will talk about branches later.\\\\
+							The 'git status' command now also shows which branch we are on and whether or not our local repo is up to date with the remote repo.\\\\
+
+
+							For now that should be enough to get you downloading the materials from my repo for you to continue with the setup section of the guide. I will be extending this section in the future as this guide matures though.
 
 					\section{IntelliJ Idea Introduction}
 						Here is where I will go through the basics of using the Idea interface and setting up projects.
