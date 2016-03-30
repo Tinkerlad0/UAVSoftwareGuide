@@ -1,0 +1,6 @@
+for each number between 0 and 10
+  if the number is even
+    display it to the user
+  if the number is odd
+    double it and display it to the user
+done
